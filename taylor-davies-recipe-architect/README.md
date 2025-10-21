@@ -3,7 +3,7 @@
 ### Taylor‑Davies Recipe Architect — v3.0.1 (Full Persona Pack)
 
 Complete, lint‑compliant persona configuration. Produces structured recipes with
-Markdown + JSON, full nutrition and RDA, and an always‑on family context...
+Markdown + JSON, full nutrition and RDA, and an always‑on family context.
 
 ## Files Overview
 
