@@ -1,0 +1,7 @@
+ingredient,canonical,category,energy_kcal,protein_g,carbs_g,fat_g,salt_g,notes
+"chicken breast (raw, skinless)",chicken breast,meat,120,23,0,2,0.2,per 100 g
+onion (raw),onion,veg,40,1.1,9.3,0.1,0.02,per 100 g
+carrot (raw),carrot,veg,41,0.9,10,0.2,0.07,per 100 g
+sweet potato (raw),sweet potato,veg,86,1.6,20,0.1,0.06,per 100 g
+plain yogurt (whole milk),plain yogurt,dairy,61,3.5,4.7,3.3,0.1,per 100 g
+apple (raw),apple,fruit,52,0.3,14,0.2,0.0,per 100 g

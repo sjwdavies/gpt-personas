@@ -1,0 +1,313 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Taylor\u2011Davies Recipe Schema v2.1.2",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "serves": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prep_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cook_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quantity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "item": {
+            "type": "string"
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "item",
+          "unit"
+        ]
+      }
+    },
+    "method": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nutrition": {
+      "type": "object",
+      "properties": {
+        "energy_kcal": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "protein_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "carbs_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fat_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "salt_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "energy_kcal",
+        "protein_g",
+        "carbs_g",
+        "fat_g",
+        "salt_g"
+      ]
+    },
+    "audience": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "servings": {
+          "type": "object",
+          "properties": {
+            "adults": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "children": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "child_age_months": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        },
+        "adult_rda_percent": {
+          "type": "object",
+          "properties": {
+            "energy_kcal": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "protein_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "carbs_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "fat_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "salt_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        },
+        "child_rda_percent": {
+          "type": "object",
+          "properties": {
+            "energy_kcal": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "protein_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "carbs_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "fat_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "salt_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        },
+        "child_rda_percent_by_band": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "energy_kcal": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "protein_g": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "carbs_g": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "fat_g": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "salt_g": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "child_age_band": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "slug",
+    "title",
+    "ingredients",
+    "method",
+    "nutrition",
+    "meta"
+  ]
+}

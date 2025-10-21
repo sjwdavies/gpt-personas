@@ -1,0 +1,46 @@
+{
+  "adult": {
+    "energy_kcal": 2200,
+    "protein_g": 50,
+    "carbs_g": 260,
+    "fat_g": 70,
+    "salt_g": 6
+  },
+  "bands": {
+    "6\u201312m": {
+      "energy_kcal": 720,
+      "protein_g": 12,
+      "carbs_g": 95,
+      "fat_g": 31,
+      "salt_g": 1
+    },
+    "1\u20133y": {
+      "energy_kcal": 1150,
+      "protein_g": 14,
+      "carbs_g": 130,
+      "fat_g": 38,
+      "salt_g": 2
+    },
+    "4\u20136y": {
+      "energy_kcal": 1600,
+      "protein_g": 20,
+      "carbs_g": 200,
+      "fat_g": 53,
+      "salt_g": 3
+    },
+    "7\u201310y": {
+      "energy_kcal": 1900,
+      "protein_g": 28,
+      "carbs_g": 250,
+      "fat_g": 60,
+      "salt_g": 5
+    },
+    "11\u201314y": {
+      "energy_kcal": 2200,
+      "protein_g": 42,
+      "carbs_g": 275,
+      "fat_g": 70,
+      "salt_g": 6
+    }
+  }
+}
